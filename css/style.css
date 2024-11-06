@@ -115,6 +115,13 @@ a {
     
 }
 
+.definition {
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 2px 6px #585555
+}
+
 
 .one {
     font-size: 1.6em;
@@ -138,6 +145,11 @@ a {
     width: 17.5%;
 }
 
+.one p {
+    color: #8bcaec;
+    text-align: center;
+}
+
 
 .two {
     font-size: 1.6em;
@@ -145,7 +157,7 @@ a {
 
 .two h2,
 .two p {
-    font-family: "Amatic SC", sans-serif;
+    font-family: "Playfair Display", serif;
     margin-bottom: 1.2em;
 }
 
@@ -153,8 +165,16 @@ a {
     padding: 10%;
 }
 .two  img{
-    width: 25%;
+    width: 50%;
+    height: auto;
 }
+
+.two h2 {
+    font-size: 35;
+    font-family: "Dancing Script", cursive;
+}
+
+
 .fltright{
     float: right;
     margin: 0 0 15px 20px;
@@ -168,8 +188,10 @@ a {
 }
 
 .four h2 {
-    font-family: "Rubik Wet Paint", system-ui;
-    color: #BF3100;
+    font-family: "Dancing Script", cursive;
+    color: #404040;
+    font-size: 35px;
+    font-style: bold;
 }
 
 .four p {
@@ -185,7 +207,8 @@ a {
     padding: 10%;
 }
 .four img{
-    width: 25%;
+    width: 50%;
+    height: auto;
 }
 
 .five {
@@ -196,15 +219,30 @@ a {
 
 .five h2,
 .five p {
-    font-family: "Amatic SC", sans-serif;
+    font-family: "Playfair Display", serif;
     margin-bottom: .5em;
+    color: #ffffff;
 }
+
+.five h2{
+    color: #ffffff;
+    font-size: 35px;
+    font-family: "Dancing Script", cursive;
+}
+
+.five ul{
+    font-family: "Playfair Display", serif;
+    margin-bottom: .5em;
+    color: #ffffff;
+}
+
 
 .five {
     padding: 10%;
 }
 .five img{
-    width: 25%;
+    width: 50%;
+    height: auto;
 }
 
 
@@ -246,7 +284,11 @@ display: grid;
 
 .two {
     min-height: 250px;
-    background-color: #D8BE6B;
+    background-color: #ffffff;
+}
+.two2 {
+    min-height: 250px;
+    background-color: #ffffff;
 }
 
 .three {
@@ -259,12 +301,12 @@ display: grid;
 
 .four {
     min-height: 250px;
-    background-color: #365061;
+    background-color: #5e95ba;
 }
 
 .five {
     min-height: 250px;
-    background-color: #ce7244;
+    background-color: #f84444
 }
 
 .six {
@@ -274,7 +316,7 @@ display: grid;
     background-position-x: center;
     background-position-y: bottom;
 }
-}
+
 
 .seven {
     min-height: 250px;
