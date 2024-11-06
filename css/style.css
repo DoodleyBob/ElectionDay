@@ -5,6 +5,7 @@ font-family: "Nosifer", sans-serif;
 font-family: "Butcherman", system-ui;
 font-family: "Rubik Wet Paint", system-ui;
 font-family: "Amatic SC", sans-serif;
+font-family: "Playfair Display", serif;
 
 ------- Fonts End ----------*/
 
@@ -101,9 +102,17 @@ a {
     color: #BF3100;
     font-size: .8em;
     text-shadow: 2px 2px 6px #fff;
-    font-family: "Nosifer", sans-serif;
+    font-family: "Playfair Display", serif;
     text-align: center;
 
+}
+
+.great {
+    font-size: 45px;
+    text-align: center;
+    color: #00a6ff;
+    text-shadow: 4px 4px 8px #7dd5ed;
+    
 }
 
 
@@ -123,7 +132,7 @@ a {
 }
 .one h2 {
     font-family: "Amatic SC", sans-serif;
-    color:#BF3100;
+    color:#ffffff;
 }
 .one img {
     width: 17.5%;
@@ -164,7 +173,7 @@ a {
 }
 
 .four p {
-    font-family: "Butcherman", sans-serif;
+    font-family: "Playfair Display", serif;
 }
 
 .four h2,
@@ -218,14 +227,6 @@ a {
 }
 
 
-.raven {
-    padding: 10%;
-    font-size: 25px;
-    background-color: #2A1C68;
-    color: #fff;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
 /*----- Responsive Images ----------*/
 img {
     width: 100%;
@@ -240,7 +241,7 @@ display: grid;
 
 .one {
     min-height: 250px;
-    background-color: #365061;
+    background-image: url(../image/AMERICA.webp);
 }
 
 .two {
@@ -402,3 +403,7 @@ footer {
     color: #0e0d0a;
     min-height: 300px;
 }
+
+
+
+
